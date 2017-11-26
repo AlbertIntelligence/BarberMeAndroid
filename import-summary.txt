@@ -1,0 +1,233 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+D:\Android\Work Docs\Template Apps\Android Studio\Dashboard
+               -             -            -                
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Dashboard:
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\dashboard\
+* doc\com\dashboard\BuildConfig.html
+* doc\com\dashboard\ChartDetail.html
+* doc\com\dashboard\FeedDetail.html
+* doc\com\dashboard\Login.html
+* doc\com\dashboard\MainActivity.html
+* doc\com\dashboard\R.array.html
+* doc\com\dashboard\R.attr.html
+* doc\com\dashboard\R.color.html
+* doc\com\dashboard\R.dimen.html
+* doc\com\dashboard\R.drawable.html
+* doc\com\dashboard\R.html
+* doc\com\dashboard\R.id.html
+* doc\com\dashboard\R.layout.html
+* doc\com\dashboard\R.menu.html
+* doc\com\dashboard\R.string.html
+* doc\com\dashboard\R.style.html
+* doc\com\dashboard\R.styleable.html
+* doc\com\dashboard\SalesFeed.FeedAdapter.html
+* doc\com\dashboard\SalesFeed.html
+* doc\com\dashboard\SplashScreen.html
+* doc\com\dashboard\class-use\
+* doc\com\dashboard\class-use\BuildConfig.html
+* doc\com\dashboard\class-use\ChartDetail.html
+* doc\com\dashboard\class-use\FeedDetail.html
+* doc\com\dashboard\class-use\Login.html
+* doc\com\dashboard\class-use\MainActivity.html
+* doc\com\dashboard\class-use\R.array.html
+* doc\com\dashboard\class-use\R.attr.html
+* doc\com\dashboard\class-use\R.color.html
+* doc\com\dashboard\class-use\R.dimen.html
+* doc\com\dashboard\class-use\R.drawable.html
+* doc\com\dashboard\class-use\R.html
+* doc\com\dashboard\class-use\R.id.html
+* doc\com\dashboard\class-use\R.layout.html
+* doc\com\dashboard\class-use\R.menu.html
+* doc\com\dashboard\class-use\R.string.html
+* doc\com\dashboard\class-use\R.style.html
+* doc\com\dashboard\class-use\R.styleable.html
+* doc\com\dashboard\class-use\SalesFeed.FeedAdapter.html
+* doc\com\dashboard\class-use\SalesFeed.html
+* doc\com\dashboard\class-use\SplashScreen.html
+* doc\com\dashboard\custom\
+* doc\com\dashboard\custom\CustomActivity.html
+* doc\com\dashboard\custom\CustomFragment.html
+* doc\com\dashboard\custom\class-use\
+* doc\com\dashboard\custom\class-use\CustomActivity.html
+* doc\com\dashboard\custom\class-use\CustomFragment.html
+* doc\com\dashboard\custom\package-frame.html
+* doc\com\dashboard\custom\package-summary.html
+* doc\com\dashboard\custom\package-tree.html
+* doc\com\dashboard\custom\package-use.html
+* doc\com\dashboard\model\
+* doc\com\dashboard\model\Data.html
+* doc\com\dashboard\model\class-use\
+* doc\com\dashboard\model\class-use\Data.html
+* doc\com\dashboard\model\package-frame.html
+* doc\com\dashboard\model\package-summary.html
+* doc\com\dashboard\model\package-tree.html
+* doc\com\dashboard\model\package-use.html
+* doc\com\dashboard\package-frame.html
+* doc\com\dashboard\package-summary.html
+* doc\com\dashboard\package-tree.html
+* doc\com\dashboard\package-use.html
+* doc\com\dashboard\ui\
+* doc\com\dashboard\ui\LeftNavAdapter.html
+* doc\com\dashboard\ui\MainFragment.ChartAdapter.html
+* doc\com\dashboard\ui\MainFragment.html
+* doc\com\dashboard\ui\class-use\
+* doc\com\dashboard\ui\class-use\LeftNavAdapter.html
+* doc\com\dashboard\ui\class-use\MainFragment.ChartAdapter.html
+* doc\com\dashboard\ui\class-use\MainFragment.html
+* doc\com\dashboard\ui\package-frame.html
+* doc\com\dashboard\ui\package-summary.html
+* doc\com\dashboard\ui\package-tree.html
+* doc\com\dashboard\ui\package-use.html
+* doc\com\dashboard\utils\
+* doc\com\dashboard\utils\TouchEffect.html
+* doc\com\dashboard\utils\class-use\
+* doc\com\dashboard\utils\class-use\TouchEffect.html
+* doc\com\dashboard\utils\package-frame.html
+* doc\com\dashboard\utils\package-summary.html
+* doc\com\dashboard\utils\package-tree.html
+* doc\com\dashboard\utils\package-use.html
+* doc\com\squareup\
+* doc\com\squareup\timessquare\
+* doc\com\squareup\timessquare\R.attr.html
+* doc\com\squareup\timessquare\R.color.html
+* doc\com\squareup\timessquare\R.dimen.html
+* doc\com\squareup\timessquare\R.drawable.html
+* doc\com\squareup\timessquare\R.html
+* doc\com\squareup\timessquare\R.id.html
+* doc\com\squareup\timessquare\R.layout.html
+* doc\com\squareup\timessquare\R.string.html
+* doc\com\squareup\timessquare\R.style.html
+* doc\com\squareup\timessquare\R.styleable.html
+* doc\com\squareup\timessquare\class-use\
+* doc\com\squareup\timessquare\class-use\R.attr.html
+* doc\com\squareup\timessquare\class-use\R.color.html
+* doc\com\squareup\timessquare\class-use\R.dimen.html
+* doc\com\squareup\timessquare\class-use\R.drawable.html
+* doc\com\squareup\timessquare\class-use\R.html
+* doc\com\squareup\timessquare\class-use\R.id.html
+* doc\com\squareup\timessquare\class-use\R.layout.html
+* doc\com\squareup\timessquare\class-use\R.string.html
+* doc\com\squareup\timessquare\class-use\R.style.html
+* doc\com\squareup\timessquare\class-use\R.styleable.html
+* doc\com\squareup\timessquare\package-frame.html
+* doc\com\squareup\timessquare\package-summary.html
+* doc\com\squareup\timessquare\package-tree.html
+* doc\com\squareup\timessquare\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-10.html
+* doc\index-files\index-11.html
+* doc\index-files\index-12.html
+* doc\index-files\index-13.html
+* doc\index-files\index-14.html
+* doc\index-files\index-15.html
+* doc\index-files\index-16.html
+* doc\index-files\index-17.html
+* doc\index-files\index-18.html
+* doc\index-files\index-19.html
+* doc\index-files\index-2.html
+* doc\index-files\index-20.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index-files\index-8.html
+* doc\index-files\index-9.html
+* doc\index.html
+* doc\overview-frame.html
+* doc\overview-summary.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\background.gif
+* doc\resources\tab.gif
+* doc\resources\titlebar.gif
+* doc\resources\titlebar_end.gif
+* doc\stylesheet.css
+* javadoc.xml
+* pom.xml
+* proguard-project.txt
+From MultiDateCalander:
+* pom.xml
+* test\
+* test\com\
+* test\com\squareup\
+* test\com\squareup\timessquare\
+* test\com\squareup\timessquare\CalendarPickerViewTest.java
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In MultiDateCalander:
+* AndroidManifest.xml => multiDateCalander\src\main\AndroidManifest.xml
+* assets\ => multiDateCalander\src\main\assets
+* res\ => multiDateCalander\src\main\res\
+* src\ => multiDateCalander\src\main\java\
+In Dashboard:
+* AndroidManifest.xml => dashboard\src\main\AndroidManifest.xml
+* assets\ => dashboard\src\main\assets
+* lint.xml => dashboard\lint.xml
+* res\ => dashboard\src\main\res\
+* src\ => dashboard\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

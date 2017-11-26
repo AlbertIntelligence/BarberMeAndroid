@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/drawable-large-hdpi-v4_icon_calender_arrow_next.png.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/drawable-large-hdpi-v4/icon_calender_arrow_next.png"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_calender_arrow_next.png.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_calender_arrow_next.png"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/drawable-large-hdpi-v4_icon_calender_arrow_prv.png.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/drawable-large-hdpi-v4/icon_calender_arrow_prv.png"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_cal_month_ttl_bg.png.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/cal_month_ttl_bg.png"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/drawable-large-hdpi-v4_cal_month_ttl_bg.png.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/drawable-large-hdpi-v4/cal_month_ttl_bg.png"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/layout_week.xml.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/layout/week.xml"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_icon_calender_arrow_prv.png.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_calender_arrow_prv.png"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/drawable-large-hdpi-v4_cal_bg.png.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/drawable-large-hdpi-v4/cal_bg.png"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_cal_bg.png.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/cal_bg.png"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/drawable_calendar_bg_selector.xml.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/drawable/calendar_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/color_calendar_text_selector.xml.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/color/calendar_text_selector.xml"
+    },
+    {
+        "merged": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/androidTest/debug/layout_month.xml.flat",
+        "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/layout/month.xml"
+    }
+]

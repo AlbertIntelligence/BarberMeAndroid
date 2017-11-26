@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/georgehartley/Development/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/georgehartley/Downloads/Android Studio Templates/Dashboard/dashboard/build/intermediates/pre-dexed/debug/support-v4-18.0.0-48466ed14fe9c66ec6d5afbe18f4cbb1ec0c81ac.jar" />
+    </item>
+    <item
+        jar="/Users/georgehartley/Downloads/Android Studio Templates/Dashboard/dashboard/build/intermediates/exploded-aar/Dashboard/multiDateCalander/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="142916c54537241f8ef784bd893c7d1adc3b1ac0">
+        <dex dex="/Users/georgehartley/Downloads/Android Studio Templates/Dashboard/dashboard/build/intermediates/pre-dexed/debug/classes-9d3d0ba0060d7f6eb7ff755f069822086bfc5942.jar" />
+    </item>
+
+</items>

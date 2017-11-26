@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:orientation="vertical"
+    tools:context=".SplashScreen" >
+
+    <LinearLayout
+        android:id="@+id/aa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="@dimen/pad_20dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/pad_20dp"
+            android:src="@drawable/login_logo" />
+
+        <EditText
+            android:id="@+id/editText1"
+            style="@style/edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_20dp"
+            android:drawableLeft="@drawable/icon_email"
+            android:hint="@string/email" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            style="@style/edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_10dp"
+            android:drawableLeft="@drawable/icon_password"
+            android:hint="@string/password"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/pad_30dp"
+            android:background="@drawable/login_btn"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_16sp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnAdd"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color_dk"
+        android:text="@string/register"
+        android:textColor="@color/main_grey"
+        android:textSize="@dimen/txt_14sp"
+        android:padding="@dimen/pad_15dp"/>
+
+</LinearLayout>

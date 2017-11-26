@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+        <com.squareup.timessquare.CalendarPickerView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pad_350dp"
+
+        >
+
+    </com.squareup.timessquare.CalendarPickerView>
+
+</RelativeLayout>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/btnReserve"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/pad_30dp"
+        android:background="@drawable/login_btn"
+        android:text="RESERVER"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_16sp" />
+
+</LinearLayout>

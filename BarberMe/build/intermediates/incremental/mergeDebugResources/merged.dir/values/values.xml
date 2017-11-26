@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_filter">
+        <item>Custom Range</item>
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>Week</item>
+        <item>This Month</item>
+        <item>Last Month</item>
+        <item>Year to date</item>
+        <item>Lifetime</item>
+    </string-array>
+    <color name="black">#000000</color>
+    <color name="blue_sky">#33b5e5</color>
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#ff379bff</color>
+    <color name="calendar_selected_range_bg">#ff96caff</color>
+    <color name="calendar_text_active">#ff778088</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+    <color name="gray">#5B5B5B</color>
+    <color name="gray_dk">#313031</color>
+    <color name="main_blue">#19b4cc</color>
+    <color name="main_blue_dk">#16889a</color>
+    <color name="main_blue_lt">#7c8b9c</color>
+    <color name="main_color">#252f39</color>
+    <color name="main_color_dk">#1d252d</color>
+    <color name="main_color_lt">#2e3c49</color>
+    <color name="main_green">#27AE60</color>
+    <color name="main_grey">#92979c</color>
+    <color name="main_grey_dk">#808080</color>
+    <color name="main_red">#EC384D</color>
+    <color name="main_skyblue">#edf3f4</color>
+    <color name="red_light">#e74c3c</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_smoke">#F7F7F7</color>
+    <declare-styleable name="CalendarPickerView"><attr name="android:background"/><attr format="color" name="dividerColor"/><attr format="reference" name="dayBackground"/><attr format="color" name="dayTextColor"/><attr format="color" name="titleTextColor"/><attr format="boolean" name="displayHeader"/><attr format="color" name="headerTextColor"/></declare-styleable>
+    <declare-styleable name="calendar_cell"><attr format="boolean" name="state_selectable"/><attr format="boolean" name="state_current_month"/><attr format="boolean" name="state_today"/><attr format="boolean" name="state_range_first"/><attr format="boolean" name="state_range_middle"/><attr format="boolean" name="state_range_last"/><attr format="boolean" name="state_highlighted"/></declare-styleable>
+    <dimen name="calendar_day_headers_paddingbottom">4dp</dimen>
+    <dimen name="calendar_month_title_bottommargin">4dp</dimen>
+    <dimen name="calendar_month_topmargin">16dp</dimen>
+    <dimen name="calendar_text_medium">18sp</dimen>
+    <dimen name="calendar_text_small">14sp</dimen>
+    <dimen name="divider">0.5dp</dimen>
+    <dimen name="pad_10dp">10dp</dimen>
+    <dimen name="pad_125dp">125dp</dimen>
+    <dimen name="pad_15dp">15dp</dimen>
+    <dimen name="pad_1dp">1dp</dimen>
+    <dimen name="pad_200dp">200dp</dimen>
+    <dimen name="pad_20dp">20dp</dimen>
+    <dimen name="pad_30dp">30dp</dimen>
+    <dimen name="pad_350dp">350dp</dimen>
+    <dimen name="pad_3dp">3dp</dimen>
+    <dimen name="pad_5dp">5dp</dimen>
+    <dimen name="pad_80dp">80dp</dimen>
+    <dimen name="txt_12sp">12sp</dimen>
+    <dimen name="txt_13sp">13sp</dimen>
+    <dimen name="txt_14sp">14sp</dimen>
+    <dimen name="txt_15sp">15sp</dimen>
+    <dimen name="txt_16sp">16sp</dimen>
+    <dimen name="txt_18sp">18sp</dimen>
+    <dimen name="txt_20sp">20sp</dimen>
+    <dimen name="txt_25sp">25sp</dimen>
+    <dimen name="txt_7sp">7sp</dimen>
+    <drawable name="trans_draw">#00000000</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <string name="app_name">BarberMe</string>
+    <string name="day_name_format">EEE</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="email">Address email</string>
+    <string name="invalid_date">Date must be between %1$s and %2$s.</string>
+    <string name="login">Connecter</string>
+    <string name="month_name_format">MMMM yyyy</string>
+    <string name="password">Password</string>
+    <string name="register">Enregistrer vous!</string>
+    <string name="search">Search</string>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    <style name="CalendarCell">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:gravity">center</item>
+    <!-- <item name="android:textAlignment">center</item> -->
+  </style>
+    <style name="CalendarCell.CalendarDate">
+    <item name="android:textSize">@dimen/txt_14sp</item>
+    <item name="android:clickable">true</item>
+  </style>
+    <style name="CalendarCell.DayHeader">
+    <item name="android:textSize">@dimen/txt_14sp</item>
+    <item name="android:textColor">@color/main_blue</item>
+  </style>
+    <style name="CalendarTitle">
+    <item name="android:textSize">@dimen/txt_16sp</item>
+    <item name="android:textColor">@color/main_blue</item>
+    <item name="android:gravity">center</item>
+  </style>
+    <style name="btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:minHeight">1dp</item>
+        <item name="android:minWidth">1dp</item>
+    </style>
+    <style name="edittext" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:drawablePadding">@dimen/pad_10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/main_grey</item>
+        <item name="android:textSize">@dimen/txt_15sp</item>
+    </style>
+    <style name="lbl_ch1" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:minWidth">@dimen/pad_125dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/txt_14sp</item>
+    </style>
+    <style name="lbl_ch2" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/txt_16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="lbl_ch3" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/main_green</item>
+        <item name="android:textSize">@dimen/txt_12sp</item>
+    </style>
+    <style name="lbl_ch4" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/main_grey_dk</item>
+        <item name="android:textSize">@dimen/txt_13sp</item>
+    </style>
+    <style name="lbl_feed1" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:minWidth">@dimen/pad_80dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/txt_14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="lbl_feed2" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/txt_14sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

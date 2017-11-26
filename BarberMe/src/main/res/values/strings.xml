@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BarberMe</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="search">Search</string>
+
+    <string name="email">Address email</string>
+    <string name="password">Password</string>
+    <string name="login">Connecter</string>
+    
+    <string name="register">Enregistrer vous!</string>
+    <string-array name="arr_filter">
+        <item >Custom Range</item>
+        <item >Today</item>
+        <item >Yesterday</item>
+        <item >Week</item>
+        <item >This Month</item>
+        <item >Last Month</item>
+        <item >Year to date</item>
+        <item >Lifetime</item>
+    </string-array>
+    
+    
+    
+
+</resources>

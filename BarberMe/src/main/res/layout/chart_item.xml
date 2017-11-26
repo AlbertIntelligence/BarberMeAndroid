@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/chart1"
+    android:padding="@dimen/pad_10dp">
+
+    <TextView
+        android:id="@+id/lbl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main_blue_dk"
+        android:textSize="@dimen/txt_15sp"
+        android:textStyle="bold"
+        android:text="$000" />
+    
+    <TextView
+        android:id="@+id/lbl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main_green"
+        android:textSize="@dimen/txt_14sp"
+        android:text="+123" 
+        android:layout_alignParentRight="true"/>
+    
+     <TextView
+        android:id="@+id/lbl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main_grey_dk"
+        android:textSize="@dimen/txt_12sp"
+        android:text="Today" 
+        android:layout_below="@+id/lbl2"
+        android:layout_alignParentRight="true"/>
+     
+     <TextView
+        android:id="@+id/lbl4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/main_grey_dk"
+        android:textSize="@dimen/txt_15sp"
+        android:text="Daily Revenue" 
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

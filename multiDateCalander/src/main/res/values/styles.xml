@@ -1,0 +1,25 @@
+<!-- Copyright 2012 Square, Inc. -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <style name="CalendarTitle">
+    <item name="android:textSize">@dimen/txt_16sp</item>
+    <item name="android:textColor">@color/main_blue</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="CalendarCell">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:gravity">center</item>
+    <!-- <item name="android:textAlignment">center</item> -->
+  </style>
+
+  <style name="CalendarCell.DayHeader">
+    <item name="android:textSize">@dimen/txt_14sp</item>
+    <item name="android:textColor">@color/main_blue</item>
+  </style>
+
+  <style name="CalendarCell.CalendarDate">
+    <item name="android:textSize">@dimen/txt_14sp</item>
+    <item name="android:clickable">true</item>
+  </style>
+</resources>

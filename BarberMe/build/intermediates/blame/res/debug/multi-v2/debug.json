@@ -1,0 +1,137 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/debug/values-large-mdpi-v4_values-large-mdpi-v4.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/src/main/res/values-large-mdpi/dimens.xml",
+                    "from": {
+                        "startLines": "23,5,10,6,2,11,7,8,12,3,4,9,15,16,17,18,19,20,21,22,14",
+                        "startColumns": "1,1,1,1,4,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1",
+                        "startOffsets": "786,131,322,169,19,362,207,245,402,58,94,283,482,520,558,596,634,672,710,748,445",
+                        "endColumns": "34,36,38,36,37,38,36,36,38,37,35,37,36,36,36,36,36,36,36,36,35",
+                        "endOffsets": "819,166,359,204,52,399,242,280,439,91,128,319,517,555,593,631,669,707,745,783,479"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,93,133,175,215,253,295,335,375,417,455,494,535,575,615,655,695,735,775,815,855",
+                        "endColumns": "37,39,41,39,37,41,39,39,41,37,38,40,39,39,39,39,39,39,39,39,38",
+                        "endOffsets": "88,128,170,210,248,290,330,370,412,450,489,530,570,610,650,690,730,770,810,850,889"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2,5,17,8,38,33,43,47,22,28",
+                        "startColumns": "4,4,4,2,4,4,4,4,4,4",
+                        "startOffsets": "78,175,724,240,1765,1505,2036,2249,910,1234",
+                        "endLines": "3,6,20,15,42,37,46,50,27,32",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "167,234,899,712,2030,1759,2243,2458,1228,1499"
+                    },
+                    "to": {
+                        "startLines": "83,85,106,110,118,123,128,132,136,142",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4440,4533,5381,5558,6028,6294,6549,6758,6969,7287",
+                        "endLines": "84,86,109,117,122,127,131,135,141,146",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "4528,4591,5553,6023,6289,6544,6753,6964,7282,7548"
+                    }
+                },
+                {
+                    "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/src/main/res/values/color.xml",
+                    "from": {
+                        "startLines": "8,10,11,4,21,23,22,16,17,18,25,19,20,24,26,3,9,6,5,12,7",
+                        "startColumns": "4,4,4,4,7,7,7,6,6,6,7,7,7,7,7,4,4,4,4,4,4",
+                        "startOffsets": "286,376,420,108,784,883,832,534,582,633,981,685,733,934,1030,63,327,198,151,460,239",
+                        "endColumns": "39,42,38,41,46,49,49,46,49,49,47,46,49,45,49,43,47,39,45,52,45",
+                        "endOffsets": "321,414,454,145,823,925,874,574,625,676,1021,724,775,972,1072,102,370,233,192,508,280"
+                    },
+                    "to": {
+                        "startLines": "12,13,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,70,71",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "358,398,1090,1129,1171,1215,1262,1309,1354,1402,1450,1495,1539,1586,1629,1676,1720,1768,1808,3751,3804",
+                        "endColumns": "39,42,38,41,43,46,46,44,47,47,44,43,46,42,46,43,47,39,45,52,45",
+                        "endOffsets": "393,436,1124,1166,1210,1257,1304,1349,1397,1445,1490,1534,1581,1624,1671,1715,1763,1803,1849,3799,3845"
+                    }
+                },
+                {
+                    "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "13,3,5,4,8,10,9,12,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "471,56,165,102,273,367,321,416,230",
+                        "endLines": "22,3,5,4,8,10,9,12,6",
+                        "endColumns": "19,45,64,62,47,43,45,54,41",
+                        "endOffsets": "777,97,225,160,316,406,362,466,267"
+                    },
+                    "to": {
+                        "startLines": "2,72,74,75,76,78,80,81,82",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,3850,3944,4009,4072,4197,4297,4343,4398",
+                        "endLines": "11,72,74,75,76,78,80,81,82",
+                        "endColumns": "19,45,64,62,47,43,45,54,41",
+                        "endOffsets": "353,3891,4004,4067,4115,4236,4338,4393,4435"
+                    }
+                },
+                {
+                    "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,19,20,21,22,23,43,44,45,46,52,56,60",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,116,164,217,279,342,403,466,523,582,641,1661,1726,1790,1846,1898,2705,2753,2830,2886,3135,3295,3464",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,19,20,21,22,23,43,44,45,51,55,59,64",
+                        "endColumns": "60,47,52,61,62,60,62,56,58,58,62,64,63,55,51,50,47,76,55,10,10,10,10",
+                        "endOffsets": "111,159,212,274,337,398,461,518,577,636,699,1721,1785,1841,1893,1944,2748,2825,2881,3130,3290,3459,3666"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,44,45,46,47,48,73,77,79,87,93,97,101",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "441,502,550,603,665,728,789,852,909,968,1027,2625,2690,2754,2810,2862,3896,4120,4241,4596,4845,5005,5174",
+                        "endLines": "14,15,16,17,18,19,20,21,22,23,24,44,45,46,47,48,73,77,79,92,96,100,105",
+                        "endColumns": "60,47,52,61,62,60,62,56,58,58,62,64,63,55,51,50,47,76,55,10,10,10,10",
+                        "endOffsets": "497,545,598,660,723,784,847,904,963,1022,1085,2685,2749,2805,2857,2908,3939,4192,4292,4840,5000,5169,5376"
+                    }
+                },
+                {
+                    "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "23,5,10,6,2,11,7,8,12,3,4,9,15,16,17,18,19,20,21,22,14",
+                        "startColumns": "1,1,1,1,4,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1",
+                        "startOffsets": "783,130,320,168,19,360,206,244,400,58,94,282,479,517,555,593,631,669,707,745,443",
+                        "endColumns": "36,36,38,36,37,38,36,36,38,37,34,36,36,36,36,36,36,36,36,36,34",
+                        "endOffsets": "818,165,357,203,52,397,241,279,437,91,127,317,514,552,590,628,666,704,742,780,476"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2913,2953,2993,3035,3075,3113,3155,3195,3235,3277,3315,3353,3393,3433,3473,3513,3553,3593,3633,3673,3713",
+                        "endColumns": "39,39,41,39,37,41,39,39,41,37,37,39,39,39,39,39,39,39,39,39,37",
+                        "endOffsets": "2948,2988,3030,3070,3108,3150,3190,3230,3272,3310,3348,3388,3428,3468,3508,3548,3588,3628,3668,3708,3746"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/res/merged/debug/values-v9_values-v9.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/multiDateCalander/build/intermediates/bundles/debug/res/values-v9/values-v9.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

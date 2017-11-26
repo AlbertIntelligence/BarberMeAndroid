@@ -1,0 +1,4 @@
+#Sun Nov 26 11:09:19 EST 2017
+base.0=/Users/officemobile/Documents/GitHubRepo/Dashboard Android/Dashboard Main Android Studio/BarberMe/build/intermediates/transforms/dexMerger/debug/464
+path.0=classes.dex
+renamed.0=classes.dex
